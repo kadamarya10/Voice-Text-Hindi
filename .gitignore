@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+venv/
+.venv/
+
+# Audio / media
+*.wav
+*.mp3
+*.mp4
+*.m4a
+
+# Model checkpoints
+*.nemo
+*.ckpt
+*.pt
+*.pth
+
+# Pipeline outputs
+outputs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

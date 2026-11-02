@@ -1,0 +1,28 @@
+# Core ML stack
+torch==2.8.0
+torchaudio==2.8.0
+pytorch-lightning==2.0.7
+
+# Hindi STT (Jivi AI AudioX-North) and Whisper fallback path
+transformers>=4.44.0
+
+# Speaker diarization (FIR / multi-speaker mode)
+pyannote.audio==4.0.7
+
+# Subtitle/timestamp mode
+whisperx>=3.8.7
+
+# Audio I/O and signal processing
+librosa==0.11.0
+soundfile==0.14.0
+scipy
+numpy
+
+# Hugging Face model hub access
+huggingface_hub==0.36.2
+
+# HTTP client for the optional local vLLM spelling-correction / FIR drafting service
+requests
+
+# Plotting (optional diagnostics)
+matplotlib
